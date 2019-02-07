@@ -1,38 +1,61 @@
-body {
-  background-repeat: no-repeat; 
+body{
+  background-repeat: no-repeat;
+  background-image: url(big-graph.png);
+  /*background-position-x: center;
+  background-position-y: top;*/
+  background-position: top,center;
   padding: 10px;
   margin: 0px;
   text-align: justify;
 }
 
 p:first-letter {
-  margin-left:15px;
+  margin-left: 15px;
 }
 
-h1{
+h1 {
   text-align: center;
+  text-transform: uppercase;
 }
 
-h2, h3{
+h2,
+h3 {
   font-style: italic;
 }
 
 
-#jobbra{
+#jobbra {
   float: right;
   text-align: center;
   margin: 10px;
   padding: 10px;
   font-style: italic;
   font-size: 0.7em;
-  color: #FF0000;
+  border: 1px solid #FF0000;
+  background-color: #FFFFFF;
+  /*color: #FF0000;*/
 }
 
-.kerdeskep{
+#jobbra img {
+  max-width: 400px;
+}
+
+.kerdeskep {
   float: left;
   margin-right: 20px;
 }
 
-a{
-  color:red;
+.kerdeskep img
+{
+  max-width: 222px;
+}
+
+a {
+  color: red;
+  text-decoration-line: none;
+  
+}
+
+.keplet{
+  font-style: italic;
 }
